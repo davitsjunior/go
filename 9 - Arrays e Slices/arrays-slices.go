@@ -34,4 +34,13 @@ func main() {
 
 	array4[2] = "PÁ PUM"
 	fmt.Println(slice2)
+
+	//Arrays internos
+
+	fmt.Println("----------------------------")
+	slace3 := make([]float32, 10, 15) //tipo, tamanho, capacidade máxima
+	fmt.Println(slace3)
+	fmt.Println(len(slace3)) //length
+	fmt.Println(cap(slace3)) //capacidade
+
 }
