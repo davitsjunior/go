@@ -1,5 +1,4 @@
 package auxiliar
-
 import "fmt"
 
 func escrever2() {
